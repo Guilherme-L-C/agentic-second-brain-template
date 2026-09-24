@@ -61,22 +61,17 @@ O repositório inclui definições de **Subagentes** (ex: `zettelkasten_gardener
 
 ---
 
-## A Origem do Projeto (Por que isso existe?)
+## Por que isso existe?
 
-Como estudante de Engenharia da Computação, eu sempre consumi e produzi muita informação técnica, ideias de projetos e leituras complexas. No entanto, os métodos tradicionais de organização (como Zettelkasten convencional) geravam muito atrito. A necessidade de interromper o "estado de fluxo" para formatar arquivos, pensar em tags e estruturar pastas acabava matando a produtividade.
+A organização tradicional de anotações (como Zettelkasten convencional) muitas vezes gera atrito. Interromper o fluxo de pensamento para criar arquivos, definir tags ou estruturar pastas prejudica a produtividade.
 
-Foi então que decidi inverter a lógica: **e se a Inteligência Artificial atuasse não apenas como um chatbot passivo de perguntas e respostas, mas como um "Jardineiro Digital" do meu cofre pessoal?**
+A ideia deste projeto é inverter essa lógica: **usar a Inteligência Artificial não apenas como um chat passivo, mas como um "Jardineiro Digital" atuando diretamente nos arquivos.** 
 
-Assim nasceu este template. Ele consolida meses de engenharia de prompts e automações locais, criando um ecossistema vivo onde o usuário apenas "despeja" a matéria-prima (insights rápidos, rascunhos, tarefas) e o Agente se encarrega de categorizar, conectar os pontos e manter a memória do sistema sempre limpa e atualizada. Produtividade com **Zero Fricção**.
+Este template consolida uma estrutura onde o usuário apenas "despeja" a matéria-prima bruta (ideias, rascunhos) e o Agente se encarrega de categorizar e conectar os pontos, mantendo o sistema limpo com **zero fricção**.
 
-## Sobre o Autor
+## Autor
 
-**Guilherme Leite**  
-*Estudante de Engenharia da Computação | Desenvolvedor | Entusiasta de IA e Automação*
-
-Acredito que a tecnologia deve trabalhar para tirar as tarefas mecânicas da nossa frente, nos deixando livres para o trabalho criativo. Se você achou este projeto útil ou quer trocar ideias sobre agentes autônomos, sinta-se livre para entrar em contato ou abrir uma *Issue*!
-
-- **GitHub:** [@Guilherme-L-C](https://github.com/Guilherme-L-C)
+Criado por **Guilherme Leite** ([@Guilherme-L-C](https://github.com/Guilherme-L-C)). Sinta-se à vontade para abrir uma *Issue* ou enviar melhorias!
 
 ---
 
