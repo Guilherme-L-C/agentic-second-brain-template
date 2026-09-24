@@ -58,3 +58,9 @@ O repositório inclui definições de **Subagentes** (ex: `zettelkasten_gardener
 
 - **Delegação Máxima:** Evite criar arquivos ou formatar notas manualmente. Comunique-se com a IA de forma natural: *"Tive uma ideia de um sistema de cache. Salve nos projetos, conecte com as anotações de Redis e defina a prioridade como média."*
 - **Evolução Orgânica:** O `Perfil do Usuario.md` e o `Pesos da Memoria.md` são documentos vivos. À medida que o usuário interage e demonstra preferências, a IA deve atualizar esses parâmetros silenciosamente, adaptando as futuras respostas sem necessidade de ordens explícitas.
+
+---
+
+## Licença
+
+Este projeto é distribuído sob a [Licença MIT](LICENSE). Sinta-se livre para usar, alterar e adaptar este modelo para o seu próprio Segundo Cérebro.
