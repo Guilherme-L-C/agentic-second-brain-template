@@ -61,6 +61,25 @@ O repositório inclui definições de **Subagentes** (ex: `zettelkasten_gardener
 
 ---
 
+## A Origem do Projeto (Por que isso existe?)
+
+Como estudante de Engenharia da Computação, eu sempre consumi e produzi muita informação técnica, ideias de projetos e leituras complexas. No entanto, os métodos tradicionais de organização (como Zettelkasten convencional) geravam muito atrito. A necessidade de interromper o "estado de fluxo" para formatar arquivos, pensar em tags e estruturar pastas acabava matando a produtividade.
+
+Foi então que decidi inverter a lógica: **e se a Inteligência Artificial atuasse não apenas como um chatbot passivo de perguntas e respostas, mas como um "Jardineiro Digital" do meu cofre pessoal?**
+
+Assim nasceu este template. Ele consolida meses de engenharia de prompts e automações locais, criando um ecossistema vivo onde o usuário apenas "despeja" a matéria-prima (insights rápidos, rascunhos, tarefas) e o Agente se encarrega de categorizar, conectar os pontos e manter a memória do sistema sempre limpa e atualizada. Produtividade com **Zero Fricção**.
+
+## Sobre o Autor
+
+**Guilherme Leite**  
+*Estudante de Engenharia da Computação | Desenvolvedor | Entusiasta de IA e Automação*
+
+Acredito que a tecnologia deve trabalhar para tirar as tarefas mecânicas da nossa frente, nos deixando livres para o trabalho criativo. Se você achou este projeto útil ou quer trocar ideias sobre agentes autônomos, sinta-se livre para entrar em contato ou abrir uma *Issue*!
+
+- **GitHub:** [@Guilherme-L-C](https://github.com/Guilherme-L-C)
+
+---
+
 ## Licença
 
 Este projeto é distribuído sob a [Licença MIT](LICENSE). Sinta-se livre para usar, alterar e adaptar este modelo para o seu próprio Segundo Cérebro.
