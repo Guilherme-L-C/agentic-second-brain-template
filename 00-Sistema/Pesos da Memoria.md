@@ -8,7 +8,7 @@ Este arquivo é a tabela de roteamento cognitivo da IA. Ele mantém o registro t
 
 ---
 
-## 🟢 Tier 1: Foco Ativo (Memória Quente / Alta Prioridade)
+## Tier 1: Foco Ativo (Memória Quente / Alta Prioridade)
 *Ramos consultados proativamente. Carregamento imediato no início de sessões relevantes.*
 
 | Ramo / Projeto | Categoria | Visto em | Próximo Ponto Crítico | TTL Estimado |
@@ -17,7 +17,7 @@ Este arquivo é a tabela de roteamento cognitivo da IA. Ele mantém o registro t
 
 ---
 
-## 🟡 Tier 2: Foco Secundário (Memória Morna / Média Prioridade)
+## Tier 2: Foco Secundário (Memória Morna / Média Prioridade)
 *Consultar sob demanda ou quando correlacionado a perguntas técnicas.*
 
 | Ramo / Projeto | Categoria | Visto em | Observações / Gatilho de Ativação |
@@ -26,7 +26,7 @@ Este arquivo é a tabela de roteamento cognitivo da IA. Ele mantém o registro t
 
 ---
 
-## ⚪ Tier 3: Arquivo / Foco Baixo (Memória Fria)
+## Tier 3: Arquivo / Foco Baixo (Memória Fria)
 *Projetos concluídos ou congelados. **NUNCA carregar automaticamente**, a menos que solicitado.*
 
 | Ramo / Projeto | Categoria | Visto em | Status |
@@ -35,7 +35,7 @@ Este arquivo é a tabela de roteamento cognitivo da IA. Ele mantém o registro t
 
 ---
 
-## ⏱️ Regras do Ciclo Temporal (Decaimento e Promoção)
+## Regras do Ciclo Temporal (Decaimento e Promoção)
 1. **Timestamping Obrigatório:** Toda vez que um projeto for discutido, a coluna `Visto em` é atualizada com a data atual.
 2. **Decaimento por Inatividade:**
    - **Tier 1:** Se ficar sem menção e a data crítica passar $\rightarrow$ cai para **Tier 2** em 7 dias.

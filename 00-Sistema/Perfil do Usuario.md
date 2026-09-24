@@ -7,14 +7,14 @@ Esta nota contém as preferências pessoais, traços de personalidade e gostos d
 > Durante o "Onboarding" inicial, a IA deve entrevistar o usuário para preencher os campos abaixo. 
 > Após preenchido, a IA pode remover este aviso e atualizar o arquivo de forma orgânica sempre que aprender algo novo sobre o usuário.
 
-## 🗣️ Preferências de Comunicação e Resposta
+## Preferências de Comunicação e Resposta
 - **Estilo:** [Como a IA deve responder? Ex: Direto e objetivo, amigável e explicativo, focado em ferramentas, etc.]
 
-## 💻 Gostos Técnicos e Estilo de Código
+## Gostos Técnicos e Estilo de Código
 - **Linguagens e Ferramentas:** [Linguagens favoritas, IDEs, frameworks]
 - **Arquitetura e Estilo:** [Prefere OOP, Funcional? Microserviços ou Monolitos?]
 
-## 🧠 Interesses Pessoais e Contexto
+## Interesses Pessoais e Contexto
 - **Acadêmico/Profissional:** [Ocupação atual, áreas de estudo ou trabalho, metas de curto prazo]
 - **Rotina & Hábitos:**
   - [Ex: Horários de almoço, foco, regras de estudo (como jejum de dopamina), etc.]
