@@ -12,9 +12,11 @@
 
 Um ecossistema projetado para **Zero Fricção**. O objetivo é permitir que você envie ideias não-estruturadas, trechos de código ou pensamentos por chat, deixando a responsabilidade de modelagem e categorização para a IA. A IA atua como um "Jardineiro Digital", criando links cruzados (Zettelkasten) e mantendo o perfil cognitivo e as prioridades sempre atualizadas.
 
-https://github.com/Guilherme-L-C/agentic-second-brain-template/raw/main/docs/demo_graph.mp4
-
-*A IA agindo em background: notas sendo criadas e conectadas organicamente no Graph View do Obsidian enquanto o usuário apenas conversa pelo chat.*
+<p align="center">
+  <img src="docs/demo_graph.gif" alt="Grafo do Obsidian expandindo (Demonstração)" width="800"/>
+  <br>
+  <em>A IA agindo em background: notas sendo criadas e conectadas organicamente no Graph View do Obsidian enquanto o usuário apenas conversa pelo chat.</em>
+</p>
 
 ## Como Começar
 
