@@ -14,12 +14,16 @@ Este repositório não é apenas um esqueleto de pastas; trata-se de um ecossist
 
 ## Como Começar (Zero Fricção)
 
-A maneira mais fácil de instalar este ecossistema é **pedir para a sua própria IA fazer o trabalho sujo**.
+Instalar este ecossistema é tão simples quanto dar uma ordem ao seu assistente. Não é necessário configurar pastas ou copiar regras manualmente.
 
-Copie o link deste repositório e envie para o seu Agente (Antigravity, OpenCode, Claude) com a seguinte mensagem:
-> *"Instale o template deste repositório: https://github.com/Guilherme-L-C/agentic-second-brain-template"*
+### Passo a Passo (One-Click Install)
 
-O Agente irá ler as instruções abaixo, clonar os arquivos, se auto-configurar e abrir o Obsidian para você.
+1. **Copie o link** deste repositório:
+   `https://github.com/Guilherme-L-C/agentic-second-brain-template`
+2. **Cole no chat** do seu Agente de IA (Antigravity, OpenCode, etc) junto com a ordem:
+   > *"Instale o template deste repositório."*
+3. **Pronto! Comece a usar.** 
+   O seu Agente vai ler as instruções de sistema abaixo, clonar os arquivos na sua máquina, se auto-configurar e já abrir o Obsidian automaticamente. Você só precisa responder às perguntas de onboarding dele!
 
 ---
 
