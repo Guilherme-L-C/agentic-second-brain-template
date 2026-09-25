@@ -4,13 +4,11 @@ Um template de "Segundo Cérebro" estruturado para ser mantido, atualizado e pod
 
 Este repositório não é apenas um esqueleto de pastas; trata-se de um ecossistema projetado para **Zero Fricção**. O objetivo é permitir que o usuário envie ideias não-estruturadas, trechos de código ou pensamentos por chat, deixando a responsabilidade de modelagem e categorização para a IA. A IA atua como um "Jardineiro Digital", criando links cruzados (Zettelkasten) e mantendo o perfil cognitivo e as prioridades do usuário sempre atualizadas.
 
-## Como Começar
-
-1. **Clone este repositório** para a sua máquina ou faça o download em formato `.zip`.
-2. Abra a pasta gerada utilizando o aplicativo **Obsidian**.
-3. **Configure a sua IA:** Siga os passos de inicialização abaixo para realizar o "Onboarding" do seu assistente.
-
----
+<p align="center">
+  <img src="docs/demo_graph.gif" alt="Grafo do Obsidian expandindo (Adicione seu GIF aqui)" width="800"/>
+  <br>
+  <em>A IA agindo em background: notas sendo criadas e conectadas organicamente no Graph View do Obsidian enquanto o usuário apenas conversa pelo chat.</em>
+</p>
 
 ## Como Começar (Zero Fricção)
 
@@ -26,6 +24,13 @@ Instalar este ecossistema é tão simples quanto dar uma ordem ao seu assistente
    O seu Agente vai ler as instruções de sistema, clonar os arquivos na sua máquina, se auto-configurar e abrir o Obsidian automaticamente. Você só precisa responder às perguntas de onboarding dele!
 
 ---
+
+## Por que o Obsidian?
+
+O [Obsidian](https://obsidian.md/) é a interface perfeita (o "frontend") para a mente da IA. Ele trabalha inteiramente com arquivos `.md` (Markdown) armazenados localmente, o que significa que:
+1. **Privacidade e Simplicidade:** O seu "Cérebro" vive no seu disco rígido. A IA altera arquivos de texto simples localmente, sem depender de bancos de dados opacos ou APIs proprietárias.
+2. **Visualização em Grafo:** O recurso *Graph View* do Obsidian permite ver fisicamente as sinapses acontecendo — você consegue assistir a IA criando nós e interligando os seus pensamentos, projetos e tecnologias em tempo real.
+3. **À prova de futuro:** Se a IA mudar ou se o Obsidian deixar de existir, suas memórias continuam sendo arquivos de texto puro que você possui para sempre.
 
 ---
 
