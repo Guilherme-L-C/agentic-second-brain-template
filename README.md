@@ -58,7 +58,9 @@ Installing this ecosystem is as simple as giving an order to your assistant. No 
 
 Traditional note organization often creates friction. Interrupting your train of thought to create files, define tags, or structure folders harms productivity.
 
-The idea behind this project is to invert that logic: **use Artificial Intelligence not just as a passive chat, but as a "Digital Gardener" acting directly on your files.** 
+Furthermore, interacting with AI agents often suffers from the "blank slate" problem — every new chat session forgets your context. This repository solves that by giving your agent a persistent, continuously updated long-term memory. Whenever you start a new session, the agent already knows your active projects, technical tastes, and current priorities because it reads its own garden.
+
+The idea behind this project is to invert standard logic: **use Artificial Intelligence not just as a passive chat, but as a "Digital Gardener" acting directly on your files.** 
 
 This template consolidates a structure where the user just "dumps" raw material, and the Agent takes charge of categorizing and connecting the dots, keeping the system clean with **zero friction**.
 
