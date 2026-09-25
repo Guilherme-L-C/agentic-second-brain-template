@@ -41,6 +41,7 @@ Installing this ecosystem is as simple as giving an order to your assistant. No 
 
 ## Directory Structure
 
+- **`.agents/skills/`**: The multi-agent orchestration engine. Contains built-in generic skills (like `web-clipper`, `zettel-linker`, and `periodic-reviewer`) ready to be invoked by the AI.
 - **`00-System/`**: The operational engine. Contains the AI guidelines, priority table, subagent prompts, and your Profile.
 - **`00-Inbox/`**: Dump area (buffer). The AI allocates early-stage ideas and drafts that still need to be polished.
 - **`01-Projects/`**: Active notes tied to tangible projects, with defined scopes and deadlines.
