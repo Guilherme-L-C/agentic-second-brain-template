@@ -4,11 +4,9 @@ Um template de "Segundo Cérebro" estruturado para ser mantido, atualizado e pod
 
 Este repositório não é apenas um esqueleto de pastas; trata-se de um ecossistema projetado para **Zero Fricção**. O objetivo é permitir que o usuário envie ideias não-estruturadas, trechos de código ou pensamentos por chat, deixando a responsabilidade de modelagem e categorização para a IA. A IA atua como um "Jardineiro Digital", criando links cruzados (Zettelkasten) e mantendo o perfil cognitivo e as prioridades do usuário sempre atualizadas.
 
-<p align="center">
-  <video src="docs/demo_graph.mp4" autoplay loop muted playsinline width="800"></video>
-  <br>
-  <em>A IA agindo em background: notas sendo criadas e conectadas organicamente no Graph View do Obsidian enquanto o usuário apenas conversa pelo chat.</em>
-</p>
+https://github.com/Guilherme-L-C/agentic-second-brain-template/raw/main/docs/demo_graph.mp4
+
+*A IA agindo em background: notas sendo criadas e conectadas organicamente no Graph View do Obsidian enquanto o usuário apenas conversa pelo chat.*
 
 ## Como Começar (Zero Fricção)
 
