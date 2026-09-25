@@ -2,66 +2,66 @@
 
 # Agentic Second Brain
 
-*Um template de Segundo Cérebro estruturado e mantido por agentes de Inteligência Artificial.*
+*A Second Brain template structured and maintained by Artificial Intelligence agents.*
 
 [![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
-[Como Começar](#como-começar) • [Por que o Obsidian?](#por-que-o-obsidian) • [Estrutura](#estrutura-de-diretórios) • [Filosofia](#filosofia-de-uso) • [Origem](#por-que-isso-existe)
+[Getting Started](#getting-started) • [Why Obsidian?](#why-obsidian) • [Structure](#directory-structure) • [Philosophy](#usage-philosophy) • [Origin](#why-does-this-exist)
 
 </div>
 
-Um ecossistema projetado para **Zero Fricção**. O objetivo é permitir que você envie ideias não-estruturadas, trechos de código ou pensamentos por chat, deixando a responsabilidade de modelagem e categorização para a IA. A IA atua como um "Jardineiro Digital", criando links cruzados (Zettelkasten) e mantendo o perfil cognitivo e as prioridades sempre atualizadas.
+An ecosystem designed for **Zero Friction**. The goal is to allow you to dump unstructured ideas, code snippets, or thoughts via chat, leaving the responsibility of modeling and categorization to the AI. The AI acts as a "Digital Gardener", creating crosslinks (Zettelkasten) and keeping your cognitive profile and priorities constantly updated.
 
 <p align="center">
-  <img src="docs/demo_graph.gif" alt="Grafo do Obsidian expandindo (Demonstração)" width="500"/>
+  <img src="docs/demo_graph.gif" alt="Obsidian Graph expanding (Demo)" width="500"/>
   <br>
-  <em>A IA agindo em background: notas sendo criadas e conectadas organicamente no Graph View do Obsidian enquanto o usuário apenas conversa pelo chat.</em>
+  <em>AI acting in the background: notes being created and connected organically in the Obsidian Graph View while the user just chats.</em>
 </p>
 
-## Como Começar
+## Getting Started
 
-Instalar este ecossistema é tão simples quanto dar uma ordem ao seu assistente. Não é necessário configurar pastas ou copiar regras manualmente.
+Installing this ecosystem is as simple as giving an order to your assistant. No need to manually configure folders or copy rules.
 
-### Passo a Passo
+### Step-by-Step
 
-1. **Copie o link** deste repositório:
+1. **Copy the link** of this repository:
    `https://github.com/Guilherme-L-C/agentic-second-brain-template`
-2. **Cole no chat** do seu Agente de IA (Antigravity, OpenCode, Claude Desktop, etc) junto com a ordem:
-   > *"Leia o arquivo AI_INSTALL.md e instale o template deste repositório."*
-3. **Pronto! Comece a usar.** 
-   O seu Agente vai ler as instruções de sistema, clonar os arquivos na sua máquina, se auto-configurar e abrir o Obsidian automaticamente. Você só precisa responder às perguntas de onboarding dele!
+2. **Paste it in the chat** of your AI Agent (Antigravity, OpenCode, Claude Desktop, etc) along with the command:
+   > *"Read the AI_INSTALL.md file and install this repository's template."*
+3. **Done! Start using it.** 
+   Your Agent will read the system instructions, clone the files to your machine, self-configure, and open Obsidian automatically. You just need to answer its onboarding questions!
 
-## Por que o Obsidian?
+## Why Obsidian?
 
-O [Obsidian](https://obsidian.md/) é a interface perfeita (o "frontend") para a mente da IA. Ele trabalha inteiramente com arquivos `.md` (Markdown) armazenados localmente.
+[Obsidian](https://obsidian.md/) is the perfect interface (the "frontend") for the AI's mind. It works entirely with local `.md` (Markdown) files.
 
-- **Privacidade e Simplicidade:** O seu "Cérebro" vive no seu disco rígido. A IA altera arquivos de texto simples localmente, sem depender de APIs proprietárias.
-- **Visualização em Grafo:** O recurso *Graph View* do Obsidian permite ver fisicamente as sinapses acontecendo.
-- **À prova de futuro:** Se a IA mudar ou se o Obsidian deixar de existir, suas memórias continuam sendo arquivos de texto puro.
+- **Privacy and Simplicity:** Your "Brain" lives on your hard drive. The AI modifies plain text files locally, without relying on proprietary APIs.
+- **Graph View:** Obsidian's *Graph View* feature allows you to physically see the synapses happening.
+- **Future-proof:** If the AI changes or if Obsidian ceases to exist, your memories will still be plain text files.
 
-## Estrutura de Diretórios
+## Directory Structure
 
-- **`00-Sistema/`**: O motor operacional. Contém as diretrizes da IA, a tabela de prioridades, prompts para subagentes e o seu Perfil.
-- **`00-Inbox/`**: Área de despejo (buffer). A IA aloca ideias em estágio inicial e rascunhos que ainda precisam ser lapidados.
-- **`01-Projetos/`**: Notas ativas atreladas a projetos tangíveis, com escopo e prazos definidos.
-- **`02-Notas/`**: A base de conhecimento permanente (Zettelkasten). Documentações, resumos conceituais e aprendizados consolidados.
+- **`00-System/`**: The operational engine. Contains the AI guidelines, priority table, subagent prompts, and your Profile.
+- **`00-Inbox/`**: Dump area (buffer). The AI allocates early-stage ideas and drafts that still need to be polished.
+- **`01-Projects/`**: Active notes tied to tangible projects, with defined scopes and deadlines.
+- **`02-Notes/`**: The permanent knowledge base (Zettelkasten). Documentation, conceptual summaries, and consolidated learnings.
 
 > [!NOTE]
-> O repositório inclui definições de subagentes (em `00-Sistema/Subagentes.md`) e um script para integração nativa com o calendário do macOS (`00-Sistema/Scripts/apple_calendar.js`). A IA pode adaptar essas ferramentas conforme o seu ambiente operacional.
+> The repository includes subagent definitions (in `00-System/Subagents.md`) and a script for native integration with macOS Calendar (`00-System/Scripts/apple_calendar.js`). The AI can adapt these tools according to your operational environment.
 
-## Filosofia de Uso
+## Usage Philosophy
 
-- **Delegação Máxima:** Evite criar arquivos ou formatar notas manualmente. Comunique-se com a IA de forma natural: *"Tive uma ideia de um sistema de cache. Salve nos projetos, conecte com as anotações de Redis e defina a prioridade como média."*
-- **Evolução Orgânica:** O `Perfil do Usuario.md` e o `Pesos da Memoria.md` são documentos vivos. À medida que você interage e demonstra preferências, a IA deve atualizar esses parâmetros silenciosamente.
+- **Maximum Delegation:** Avoid creating files or formatting notes manually. Communicate with the AI naturally: *"I had an idea for a cache system. Save it in projects, connect it with the Redis notes, and set the priority to medium."*
+- **Organic Evolution:** `User Profile.md` and `Memory Weights.md` are living documents. As you interact and show preferences, the AI should silently update these parameters.
 
-## Por que isso existe?
+## Why does this exist?
 
-A organização tradicional de anotações muitas vezes gera atrito. Interromper o fluxo de pensamento para criar arquivos, definir tags ou estruturar pastas prejudica a produtividade.
+Traditional note organization often creates friction. Interrupting your train of thought to create files, define tags, or structure folders harms productivity.
 
-A ideia deste projeto é inverter essa lógica: **usar a Inteligência Artificial não apenas como um chat passivo, mas como um "Jardineiro Digital" atuando diretamente nos arquivos.** 
+The idea behind this project is to invert that logic: **use Artificial Intelligence not just as a passive chat, but as a "Digital Gardener" acting directly on your files.** 
 
-Este template consolida uma estrutura onde o usuário apenas "despeja" a matéria-prima bruta, e o Agente se encarrega de categorizar e conectar os pontos, mantendo o sistema limpo com **zero fricção**.
+This template consolidates a structure where the user just "dumps" raw material, and the Agent takes charge of categorizing and connecting the dots, keeping the system clean with **zero friction**.
 
-## Autor
+## Author
 
-Criado por **Guilherme Leite** ([@Guilherme-L-C](https://github.com/Guilherme-L-C)).
+Created by **Guilherme Leite** ([@Guilherme-L-C](https://github.com/Guilherme-L-C)).
