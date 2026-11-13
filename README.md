@@ -6,7 +6,7 @@
 
 [![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
-[Getting Started](#getting-started) • [Why Obsidian?](#why-obsidian) • [Structure](#directory-structure) • [Philosophy](#usage-philosophy) • [Origin](#why-does-this-exist)
+[Getting Started](#getting-started) • [Example](#example-session) • [Why Obsidian?](#why-obsidian) • [Structure](#directory-structure) • [Philosophy](#usage-philosophy) • [Origin](#why-does-this-exist)
 
 </div>
 
@@ -26,10 +26,34 @@ Installing this ecosystem is as simple as giving an order to your assistant. No 
 
 1. **Copy the link** of this repository:
    `https://github.com/Guilherme-L-C/agentic-second-brain-template`
-2. **Paste it in the chat** of your AI Agent (Antigravity, OpenCode, Claude Desktop, etc) along with the command:
+2. **Paste it in the chat** of your AI Agent (Claude Code, Antigravity, OpenCode, etc.) along with the command:
    > *"Read the AI_INSTALL.md file and install this repository's template."*
 3. **Done! Start using it.** 
    Your Agent will read the system instructions, clone the files to your machine, self-configure, and open Obsidian automatically. You just need to answer its onboarding questions!
+
+### Tested with
+
+| Agent | Status |
+| :--- | :--- |
+| [Claude Code](https://claude.com/claude-code) | ✅ |
+| [Antigravity](https://antigravity.google/) | ✅ |
+| [OpenCode](https://opencode.ai/) | ✅ |
+
+Any agent that can read and write local files should work.
+
+## Example session
+
+> **You:** I had an idea for a cache layer in front of our API. Save it and link it with my Redis notes.
+>
+> **Agent:** Added *"API cache layer"* to `00-Inbox/Insight Bank.md` and linked it to `[[Redis]]` and `[[API Performance]]`.
+>
+> **You:** Run a weekly review.
+>
+> **Agent:** *(periodic-reviewer skill)* Created `00-Inbox/Weekly Review.md` with what you studied this week and 2 project ideas that came from crossing those notes.
+>
+> **You:** Clip this article for me: https://example.com/post
+>
+> **Agent:** *(web-clipper skill)* Saved the article to `02-Notes/` with source metadata and a short AI summary at the top.
 
 ## Why Obsidian?
 
