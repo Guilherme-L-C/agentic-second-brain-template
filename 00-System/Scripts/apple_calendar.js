@@ -3,7 +3,7 @@ function run(argv) {
     app.includeStandardAdditions = true;
 
     if (argv.length === 0) {
-        return "Comandos: list_calendars, list <dias>, add <calendario> <titulo> <data_inicio_ISO> <data_fim_ISO>";
+        return "Commands: list_calendars, list <days>, add <calendar> <title> <start_ISO> <end_ISO>";
     }
 
     var command = argv[0];
@@ -53,7 +53,7 @@ function run(argv) {
     }
 
     if (command === "add") {
-        if (argv.length < 5) return "Erro: Faltam argumentos. Uso: add <cal> <titulo> <inicio> <fim>";
+        if (argv.length < 5) return "Error: missing arguments. Usage: add <cal> <title> <start> <end>";
         var calName = argv[1];
         var summary = argv[2];
         var start = new Date(argv[3]);
@@ -64,7 +64,7 @@ function run(argv) {
             if (c.name() === calName) targetCal = c;
         });
 
-        if (!targetCal) return "Erro: Calendario não encontrado.";
+        if (!targetCal) return "Error: calendar not found.";
 
         var newEvent = app.Event({
             summary: summary,
@@ -73,7 +73,7 @@ function run(argv) {
         });
 
         targetCal.events.push(newEvent);
-        return "Evento '" + summary + "' adicionado com sucesso no calendário '" + calName + "'.";
+        return "Event '" + summary + "' added to calendar '" + calName + "'.";
     }
 
     return "Comando desconhecido.";
